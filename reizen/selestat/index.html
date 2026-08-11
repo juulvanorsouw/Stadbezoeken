@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sélestat wandelroute — humanistenstad in de Elzas | Stadsreizen</title>
+<meta name="description" content="Zelfgeleide wandelroute door Sélestat: de Bibliothèque Humaniste, twee middeleeuwse torens en de kerken Sainte-Foy en Saint-Georges. Met interactieve kaart.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../../index.html" class="brand"><span class="mark">SB</span> Stadsreizen</a>
+    <nav class="site-nav">
+      <a href="../../index.html">Reizen</a>
+      <a href="../strasbourg/index.html">Straatsburg</a>
+      <a href="../selestat/index.html">Sélestat</a>
+    </nav>
+  </div>
+</header>
+
+<section class="route-hero" style="--hero-img:url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Selestat_Tour_de_l%E2%80%99horloge.jpg/1600px-Selestat_Tour_de_l%E2%80%99horloge.jpg')">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="../../index.html">Reizen</a> <span>/</span> <span>Sélestat</span></div>
+    <span class="eyebrow">Rondwandeling · start en finish bij het stadhuis</span>
+    <h1>De humanistenstad Sélestat</h1>
+    <p class="lede">Tussen twee middeleeuwse stadspoorttorens, twee opmerkelijke kerken en de wereldberoemde Bibliothèque Humaniste, met een rustig stuk langs de oude Vauban-wallen.</p>
+    <div class="route-stats">
+      <span class="pill">📍 2,7 km</span>
+      <span class="pill">⏱ ± 150 min</span>
+      <span class="pill">🏛 9 hoofdstops</span>
+      <span class="pill">🗺 5 punten onderweg</span>
+    </div>
+  </div>
+</section>
+
+<section class="route-body">
+  <div class="wrap">
+    <div class="route-layout">
+
+      <div class="map-col">
+        <div id="map"></div>
+        <div class="map-toolbar">
+          <button id="btn-street" type="button" class="active">Straatkaart</button>
+          <button id="btn-sat" type="button">Satelliet</button>
+          <button id="btn-fit" type="button">Hele route in beeld</button>
+          <a id="btn-gmaps" class="chip" href="#" target="_blank" rel="noopener">Route in Google Maps</a>
+        </div>
+        <div class="geo-status" id="geo-status">
+          <span>Locatie staat uit</span>
+          <button id="btn-geo" type="button">Zet aan</button>
+        </div>
+      </div>
+
+      <div class="list-col">
+        <h2>Route in volgorde</h2>
+        <p class="list-sub">Sélestat, oude binnenstad. Tik op "Toon op kaart" om een stop te lokaliseren.</p>
+        <ul class="stop-list" id="stop-list"></ul>
+
+        <div class="route-footnote">
+          <p>Looptijden zijn schattingen zonder pauzes. Openingstijden en prijzen staan er bewust niet bij — check die vooraf bij de betreffende locatie.</p>
+          <p>Een paar coördinaten (Maison du Pain, Place du Marché aux Choux, de wandeling langs de Remparts Vauban) zijn een zorgvuldige schatting op basis van het adres, geen exacte GPS-meting.</p>
+          <p>Kaart: OpenStreetMap-bijdragers en Esri. De wandellijn komt van de open routeplanner van OpenStreetMap; lukt dat niet, dan trekt de pagina rechte lijnen tussen de punten.</p>
+          <p>Foto's komen van Wikimedia Commons, credits en licentie staan onder elke foto.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="../../index.html">← Terug naar alle reizen</a>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../../assets/data/selestat.js"></script>
+<script>var ROUTE_DATA = SELESTAT_DATA;</script>
+<script src="../../assets/js/route.js"></script>
+</body>
+</html>

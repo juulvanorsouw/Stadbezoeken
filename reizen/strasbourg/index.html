@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Straatsburg wandelroute — Grande Île en Petite France | Stadsreizen</title>
+<meta name="description" content="Zelfgeleide wandelroute door historisch Straatsburg: de kathedraal, Palais Rohan, Petite France en de Ponts Couverts. Met interactieve kaart.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../../index.html" class="brand"><span class="mark">SB</span> Stadsreizen</a>
+    <nav class="site-nav">
+      <a href="../../index.html">Reizen</a>
+      <a href="../strasbourg/index.html">Straatsburg</a>
+      <a href="../selestat/index.html">Sélestat</a>
+    </nav>
+  </div>
+</header>
+
+<section class="route-hero" style="--hero-img:url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg/1600px-Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg')">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="../../index.html">Reizen</a> <span>/</span> <span>Straatsburg</span></div>
+    <span class="eyebrow">Rondwandeling · start en finish bij de kathedraal</span>
+    <h1>Historisch Straatsburg</h1>
+    <p class="lede">Van de kathedraal door het bisschoppelijk kwartier naar de grachten van Petite France en de sluizen van de Barrage Vauban, terug via het protestantse kwartier en de grote pleinen.</p>
+    <div class="route-stats">
+      <span class="pill">📍 4,2 km</span>
+      <span class="pill">⏱ ± 150 min</span>
+      <span class="pill">🏛 9 hoofdstops</span>
+      <span class="pill">🗺 16 punten onderweg</span>
+    </div>
+  </div>
+</section>
+
+<section class="route-body">
+  <div class="wrap">
+    <div class="route-layout">
+
+      <div class="map-col">
+        <div id="map"></div>
+        <div class="map-toolbar">
+          <button id="btn-street" type="button" class="active">Straatkaart</button>
+          <button id="btn-sat" type="button">Satelliet</button>
+          <button id="btn-fit" type="button">Hele route in beeld</button>
+          <a id="btn-gmaps" class="chip" href="#" target="_blank" rel="noopener">Route in Google Maps</a>
+        </div>
+        <div class="geo-status" id="geo-status">
+          <span>Locatie staat uit</span>
+          <button id="btn-geo" type="button">Zet aan</button>
+        </div>
+      </div>
+
+      <div class="list-col">
+        <h2>Route in volgorde</h2>
+        <p class="list-sub">Straatsburg, Grande Île. Tik op "Toon op kaart" om een stop te lokaliseren.</p>
+        <ul class="stop-list" id="stop-list"></ul>
+
+        <div class="route-footnote">
+          <p>Looptijden zijn schattingen zonder pauzes. Openingstijden en prijzen staan er bewust niet bij — check die vooraf bij de betreffende locatie.</p>
+          <p>Kaart: OpenStreetMap-bijdragers en Esri. De wandellijn komt van de open routeplanner van OpenStreetMap; lukt dat niet, dan trekt de pagina rechte lijnen tussen de punten.</p>
+          <p>Foto's komen van Wikimedia Commons, credits en licentie staan onder elke foto.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="../../index.html">← Terug naar alle reizen</a>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../../assets/data/strasbourg.js"></script>
+<script>var ROUTE_DATA = STRASBOURG_DATA;</script>
+<script src="../../assets/js/route.js"></script>
+</body>
+</html>
