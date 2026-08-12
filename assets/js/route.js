@@ -28,7 +28,7 @@
     li.id = "stop-" + stop.id;
 
     var mediaStyle = stop.image
-      ? 'background-image:url(' + JSON.stringify(stop.image) + ')'
+      ? "background-image:url(&quot;" + stop.image + "&quot;)"
       : "background-image:linear-gradient(135deg,#234d3f,#16332a)";
 
     var badgeLabel = stop.isMainStop ? stop._displayNumber : "•";

@@ -8,7 +8,7 @@ var STRASBOURG_DATA = {
     durationMin: 150,
     stopCount: 9,
     startAddress: "Place de la Cathédrale, 67000 Strasbourg",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg/1600px-Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg"
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg/1920px-Strasbourg_Petite-France_place_Benjamin-Zix_septembre_2015.jpg"
   },
   stops: [
     {
@@ -31,6 +31,8 @@ var STRASBOURG_DATA = {
       address: "16 Place de la Cathédrale, 67000 Strasbourg",
       lat: 48.5821, lng: 7.7506,
       walkTimeFromPrevious: "1 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/a/a5/16_Place_de_la_Chath%C3%A9drale_Strasbourg_20200124_002.jpg",
+      imageCredit: 'Wikimedia Commons (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>)',
       text1: "Dit weelderig versierde vakwerkhuis naast de kathedraal is een van de bekendste laatgotische burgerwoningen van Frankrijk. Het werd in 1467 herbouwd en kreeg zijn overdadige gevel met erkerramen aan het eind van de 16e eeuw.",
       text2: "De gevel telt tientallen houtsnijwerken; sinds het einde van de jaren dertig van de vorige eeuw is er een hotel-restaurant gevestigd, genoemd naar een latere eigenaar, Philippe-François Kammerzell.",
       praktisch: "Een blik van buitenaf volstaat voor de meeste bezoekers; wie wil, kan binnen lunchen in het traditionele Alsatische restaurant."
@@ -55,6 +57,8 @@ var STRASBOURG_DATA = {
       address: "Place du Marché-aux-Poissons, 67000 Strasbourg",
       lat: 48.5807, lng: 7.7491,
       walkTimeFromPrevious: "3 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/d/dd/%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C_%D0%A0%D1%8B%D0%B1%D0%BD%D0%BE%D0%B3%D0%BE_%D1%80%D1%8B%D0%BD%D0%BA%D0%B0_%28Place_du_March%C3%A9-aux-Poissons%29_-_panoramio.jpg",
+      imageCredit: 'Wikimedia Commons (<a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">CC BY 3.0</a>)',
       text1: "Dit kleine pleintje aan de Ill was ooit, zoals de naam al zegt, de plek waar de visverkopers van Straatsburg hun waar aanboden, dankzij de directe ligging aan het water.",
       text2: "Vanaf hier heb je een mooi zicht op de achterkant van het Palais Rohan en op de rivier die zich hier door de binnenstad slingert.",
       praktisch: "Een korte tussenstop van een paar minuten, vooral leuk voor het uitzicht over het water."
@@ -66,6 +70,8 @@ var STRASBOURG_DATA = {
       address: "23-25 Quai Saint-Nicolas, 67000 Strasbourg",
       lat: 48.5799, lng: 7.7488,
       walkTimeFromPrevious: "4 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/3/36/Strasbourg_23_et_24_quai_saint_Nicolas_Mus%C3%A9e_alsacien.jpg",
+      imageCredit: 'Wikimedia Commons (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>)',
       text1: "Langs deze kade staan renaissance vakwerkhuizen waarin het Musée Alsacien is gehuisvest, opgericht in 1902 om het dagelijks leven op het vooringustrialiseerde platteland van de Elzas te bewaren en tonen.",
       text2: "De quai was ooit het domein van vissers, schippers en bootbouwers, wat de sfeer langs het water hier nog steeds voelbaar maakt.",
       praktisch: "Let op: het museum is momenteel gesloten voor renovatie (tot 2028), maar de gevels langs de kade blijven altijd te bewonderen."
@@ -77,6 +83,8 @@ var STRASBOURG_DATA = {
       address: "Ponts Couverts, 67000 Strasbourg",
       lat: 48.5800, lng: 7.7382,
       walkTimeFromPrevious: "10 min vanaf vorige stop",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Ponts%20couverts%20(Strasbourg)%20(1).jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Deze drie bruggen met vier torens vormden vanaf de 13e eeuw een verdedigingswerk op de plek waar de Ill zich splitst in vier armen. De bouw begon in 1230; de naam verwijst naar de houten galerijen die er ooit overheen liepen en in de 18e eeuw zijn verwijderd.",
       text2: "De vier torens uit de 14e eeuw dienden zowel als gevangenis als verdedigingspost en maakten deel uit van de oude stadswallen. Sinds 1928 staan ze op de monumentenlijst.",
       praktisch: "Loop over de bruggen voor een van de mooiste uitzichten op Petite France, vooral fraai bij zonsondergang."
@@ -88,6 +96,8 @@ var STRASBOURG_DATA = {
       address: "Barrage Vauban, 67000 Strasbourg",
       lat: 48.5779, lng: 7.7350,
       walkTimeFromPrevious: "5 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Strasbourg_Barrage_Vauban_apr%C3%A8s_restauration_2012-01.jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Deze stuwdam van roze zandsteen uit de Vogezen werd tussen 1686 en 1690 gebouwd naar ontwerp van militair ingenieur Vauban, als vervanger van de verouderde Ponts Couverts. De dam telt 13 boogopeningen en is 120 meter lang.",
       text2: "Bij een aanval kon het waterniveau van de Ill kunstmatig worden verhoogd om het gebied ten zuiden van de stad onder water te zetten. Deze tactiek werd daadwerkelijk toegepast tijdens het beleg van Straatsburg in 1870.",
       praktisch: "Beklim het gratis toegankelijke dakterras voor een van de beste panorama's over Petite France en de kathedraal."
@@ -112,6 +122,8 @@ var STRASBOURG_DATA = {
       address: "Place Benjamin-Zix, 67000 Strasbourg",
       lat: 48.5811, lng: 7.7404,
       walkTimeFromPrevious: "2 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Strasbourg-Place_Benjamin-Zix.jpg",
+      imageCredit: 'Wikimedia Commons (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>)',
       text1: "Dit sfeervolle pleintje aan het water is genoemd naar de 19e-eeuwse kunstenaar Benjamin Zix en ontstond nadat de vroegere leerlooiersgracht was gedempt.",
       text2: "Onder de platanen heb je een prachtig zicht op de rivier en de omringende vakwerkgevels, met de Maison des Tanneurs als blikvanger.",
       praktisch: "Een rustig plekje om even te pauzeren, wat minder druk dan de belangrijkste fotoplekken van Petite France."
@@ -123,6 +135,8 @@ var STRASBOURG_DATA = {
       address: "42 Rue du Bain-aux-Plantes, 67000 Strasbourg",
       lat: 48.5808, lng: 7.7402,
       walkTimeFromPrevious: "1 min vanaf vorige stop",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Gerwerstub%201572%2C%20maison%20des%20tanneurs%2C%20Strasbourg%20(2014).jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Dit karakteristieke vakwerkhuis uit 1572 was ooit het gildehuis van de leerlooiers en is een van de oudste en bekendste gebouwen van Petite France.",
       text2: "Het pand doet tegenwoordig dienst als traditioneel Alsatisch restaurant, bekend van streekgerechten zoals choucroute en baeckeoffe.",
       praktisch: "Mooi fotomoment vanaf de brug ervoor; wie wil eten, kan hier reserveren voor een klassieke Alsatische maaltijd."
@@ -134,7 +148,7 @@ var STRASBOURG_DATA = {
       address: "Rue Martin Luther, 67000 Strasbourg",
       lat: 48.5825, lng: 7.7425,
       walkTimeFromPrevious: "5 min vanaf vorige stop",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Strasbourg_%C3%89glise_St_Thomas_janvier_2015.jpg/1024px-Strasbourg_%C3%89glise_St_Thomas_janvier_2015.jpg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Strasbourg_%C3%89glise_St_Thomas_janvier_2015.jpg",
       imageCredit: 'Wikimedia Commons (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>)',
       text1: "Deze gotische kerk werd gebouwd tussen 1230 en 1330 en was een van de eerste kerken in de Elzas die in 1524 protestants werd.",
       text2: "In het koor staat het grafmonument van maarschalk Maurice de Saxe, gemaakt door beeldhouwer Jean-Baptiste Pigalle. Omdat De Saxe luthers was, kon hij niet in een katholieke kerk worden bijgezet; het protestantse Straatsburg bood die mogelijkheid wel.",
@@ -147,6 +161,8 @@ var STRASBOURG_DATA = {
       address: "Place Gutenberg, 67000 Strasbourg",
       lat: 48.5827, lng: 7.7477,
       walkTimeFromPrevious: "6 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/6/65/Strasbourg_place_Gutenberg_novembre_2013_04.jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Dit plein, tot de 19e eeuw bekend als Place du Marché-aux-Herbes, werd in 1840 omgedoopt tot Place Gutenberg ter gelegenheid van de 400e verjaardag van de boekdrukkunst.",
       text2: "In het midden staat een bronzen standbeeld van Johannes Gutenberg, gemaakt door David d'Angers. Gutenberg woonde en werkte enkele jaren in Straatsburg, waar hij zijn drukpers verder ontwikkelde voordat hij naar Mainz terugkeerde.",
       praktisch: "Ideaal plein voor een korte terraspauze; rond de kerstmarkt in december extra sfeervol."
@@ -158,7 +174,7 @@ var STRASBOURG_DATA = {
       address: "Place Kléber, 67000 Strasbourg",
       lat: 48.5839, lng: 7.7483,
       walkTimeFromPrevious: "3 min vanaf vorige stop",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Absolute_place_Kleber_02.jpg/1024px-Absolute_place_Kleber_02.jpg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Absolute_place_Kleber_02.jpg",
       imageCredit: 'Wikimedia Commons (<a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">CC BY-SA 3.0</a>)',
       text1: "Het grootste plein van de binnenstad heette oorspronkelijk Barfüsserplatz, naar het franciscanenklooster dat er stond. Sinds 1840 draagt het de naam van de Straatsburgse generaal Jean-Baptiste Kléber.",
       text2: "In het midden staat een standbeeld van Kléber, met daaronder een grafkelder waarin zijn stoffelijk overschot rust; de sfinx aan zijn voeten verwijst naar zijn veldtocht in Egypte, waar hij in 1800 werd vermoord.",
@@ -171,6 +187,8 @@ var STRASBOURG_DATA = {
       address: "31 Place Kléber, 67000 Strasbourg",
       lat: 48.5841, lng: 7.7483,
       walkTimeFromPrevious: "1 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/49/Strasbourg_Aubette_f%C3%A9vrier_2014.jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Dit voormalige 'wachthuis' aan de noordzijde van Place Kléber werd tussen 1765 en 1772 gebouwd door architect Jacques-François Blondel.",
       text2: "In 1926 kreeg een deel van het gebouw een verrassend modern interieur van de avant-gardekunstenaars Theo van Doesburg, Sophie Taeuber-Arp en Hans Arp, een vroeg voorbeeld van abstracte kunst toegepast op een interieur.",
       praktisch: "Een deel van het interieur is als museumzaal te bezoeken; anders is de statige buitenkant het bekijken waard."
@@ -182,6 +200,8 @@ var STRASBOURG_DATA = {
       address: "Place Broglie, 67000 Strasbourg",
       lat: 48.5847, lng: 7.7513,
       walkTimeFromPrevious: "5 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Place_broglie.JPG",
+      imageCredit: 'Wikimedia Commons',
       text1: "Dit ruime, met bomen omzoomde plein werd in de 18e eeuw aangelegd door maarschalk de Broglie, gouverneur van de Elzas, op de plek van de oude marktplaats.",
       text2: "Aan het plein liggen het stadhuis (Hôtel de Hanau, 1731-1736) en de Opéra national du Rhin (1804-1821). Op dit plein klonk ook voor het eerst de Marseillaise, het latere Franse volkslied.",
       praktisch: "Mooi plein om even te vertoeven op een bankje voordat je de laatste etappe terug naar de kathedraal loopt."
@@ -193,6 +213,8 @@ var STRASBOURG_DATA = {
       address: "Rue des Hallebardes, 67000 Strasbourg",
       lat: 48.5828, lng: 7.7508,
       walkTimeFromPrevious: "6 min vanaf vorige stop",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Strasbourg%202%20rue%20des%20Hallebardes%20016%209805.jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Deze winkelstraat verbindt Place Broglie via Place Gutenberg met de kathedraal en loopt langs enkele van de oudste huizenrijen van de binnenstad.",
       text2: "Aan het einde van de straat duikt de torenspits van de kathedraal weer op, een mooie afsluiting van de rondwandeling door de Grande Île.",
       praktisch: "Goede straat voor de laatste souvenir-aankopen voordat je terugkeert bij het startpunt."

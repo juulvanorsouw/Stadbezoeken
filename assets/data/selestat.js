@@ -8,7 +8,7 @@ var SELESTAT_DATA = {
     durationMin: 150,
     stopCount: 9,
     startAddress: "Place d'Armes 9, 67600 Sélestat",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Selestat_Tour_de_l%E2%80%99horloge.jpg/1600px-Selestat_Tour_de_l%E2%80%99horloge.jpg"
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Selestat_Tour_de_l%E2%80%99horloge.jpg/1920px-Selestat_Tour_de_l%E2%80%99horloge.jpg"
   },
   stops: [
     {
@@ -18,6 +18,8 @@ var SELESTAT_DATA = {
       address: "9 Place d'Armes, 67600 Sélestat",
       lat: 48.2594, lng: 7.4536,
       walkTimeFromPrevious: null,
+      image: "https://upload.wikimedia.org/wikipedia/commons/3/37/S%C3%A9lestat_%28Bas-Rhin%29_-_H%C3%B4tel_de_Ville_%281788%29.jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Het huidige stadhuis van Sélestat is een neoclassicistisch gebouw met een gevel van roze zandsteen en vier Dorische zuilen. Het werd gebouwd tussen 1787 en 1791 naar ontwerp van architect Joseph-Ignace Gouget.",
       text2: "Het vorige stadhuis op deze plek stortte deels in tijdens het carnaval van 1778, wat na jaren discussie over de financiering leidde tot de bouw van dit nieuwe gebouw. Sinds 1937 staat het op de monumentenlijst.",
       praktisch: "Vooral de buitenkant is interessant, dit is een werkend gemeentehuis; 5 minuten is genoeg."
@@ -29,6 +31,8 @@ var SELESTAT_DATA = {
       address: "Rue des Clefs, 67600 Sélestat",
       lat: 48.2586, lng: 7.4538,
       walkTimeFromPrevious: "3 min vanaf vorige stop",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Rue%20des%20Clefs%2C%20S%C3%A9lestat.JPG",
+      imageCredit: 'Wikimedia Commons',
       text1: "Deze levendige winkelstraat vormt van oudsher een van de hoofdaders tussen de Place d'Armes en het zuidelijke deel van de oude stad, met veel vakwerkgevels boven de winkelpuien.",
       text2: "",
       praktisch: "Even doorlopen en omhoogkijken naar de gevels boven de winkels."
@@ -40,7 +44,7 @@ var SELESTAT_DATA = {
       address: "Rue des Chevaliers, 67600 Sélestat",
       lat: 48.2575, lng: 7.4539,
       walkTimeFromPrevious: "3 min vanaf vorige stop",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Selestat_Tour_de_l%E2%80%99horloge.jpg/1024px-Selestat_Tour_de_l%E2%80%99horloge.jpg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/41/Selestat_Tour_de_l%E2%80%99horloge.jpg",
       imageCredit: 'Wikimedia Commons (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>)',
       text1: "Deze klokkentoren, ook Tour Neuve genoemd, was een van de poorten in de tweede stadsomwalling van Sélestat en werd rond 1280 gebouwd. Samen met de Tour des Sorcières is dit een van de weinige overgebleven vestingtorens van de middeleeuwse stad.",
       text2: "De sierlijke bekroning met balkon en torentjes die de toren zijn karakteristieke silhouet geeft, werd er in 1614 aan toegevoegd. Sinds 1929 is de toren beschermd als historisch monument.",
@@ -53,6 +57,8 @@ var SELESTAT_DATA = {
       address: "Rue du Sel, 67600 Sélestat",
       lat: 48.2579, lng: 7.4544,
       walkTimeFromPrevious: "3 min vanaf vorige stop",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A9lestat%20rSel%208a.JPG",
+      imageCredit: 'Wikimedia Commons',
       text1: "De Rue du Sel (Zoutstraat) herinnert aan de handel die hier vroeger plaatsvond en leidt langs oude burgerhuizen naar het hart van de historische ambachtswijk.",
       text2: "",
       praktisch: "Let onderweg op de kleine details in de gevels."
@@ -75,6 +81,8 @@ var SELESTAT_DATA = {
       address: "Place du Marché aux Choux, 67600 Sélestat",
       lat: 48.2578, lng: 7.4552,
       walkTimeFromPrevious: "2 min vanaf vorige stop",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/10%20place%20du%20Marche%20aux%20Choux%20in%20Selestat%20(4).jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Dit koolmarktplein is al bijna 700 jaar in gebruik als marktplaats; archieven vermelden markten hier al vanaf het einde van de 14e eeuw. Nog steeds vindt hier de wekelijkse markt plaats.",
       text2: "Op nummer 6 staat de Maison Billex, te herkennen aan een erker met een inscriptie die vermeldt dat Lodewijk XIV hier in 1681 kort verbleef; op de renaissance-deurlijst staat het jaartal 1615.",
       praktisch: "Mooi plein voor een korte pauze op een terras; zoek de erker van de Maison Billex op."
@@ -86,6 +94,8 @@ var SELESTAT_DATA = {
       address: "Quai des Tanneurs, 67600 Sélestat",
       lat: 48.2585, lng: 7.4570,
       walkTimeFromPrevious: "4 min vanaf vorige stop",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Quai%20des%20Tanneurs%2C%20S%C3%A9lestat.JPG",
+      imageCredit: 'Wikimedia Commons',
       text1: "Deze kade herinnert aan de vroegere leerlooierswijk van Sélestat, die dankzij de aanwezigheid van water hier lang gevestigd was.",
       text2: "",
       praktisch: "Rustig stukje om het tempo even te laten zakken voor de wandeling langs de oude wallen."
@@ -108,6 +118,8 @@ var SELESTAT_DATA = {
       address: "1 Place du Maréchal-de-Lattre-de-Tassigny, 67600 Sélestat",
       lat: 48.2597, lng: 7.4581,
       walkTimeFromPrevious: "3 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Tour_des_Sorci%C3%A8re_%28S%C3%A9lestat%29.jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Deze toren, ook Niedertor of Porte Basse genoemd, was oorspronkelijk een poort in de vroegste stadsomwalling van Sélestat. De begane grond in zandsteen met zijn twee bogen en de eerste verdieping in baksteen zijn 13e-eeuws.",
       text2: "In de 17e eeuw kreeg de toren zijn huidige bijnaam: de bovenverdiepingen deden dienst als gevangenis, onder meer voor vrouwen die van hekserij werden verdacht en er wachtten op hun terechtstelling.",
       praktisch: "Bekijk de toren van buitenaf vanaf het plein; enkele minuten stilstaan volstaat."
@@ -119,6 +131,8 @@ var SELESTAT_DATA = {
       address: "Place du Marché Vert, 67600 Sélestat",
       lat: 48.2600, lng: 7.4587,
       walkTimeFromPrevious: "3 min vanaf vorige stop",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/5%20place%20du%20Marche%20Vert%20in%20Selestat%20(1).jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Dit plein vormt de schakel tussen de Heksentoren en het kerkenkwartier rond Saint-Georges, met zicht op enkele goed bewaarde vakwerkgevels.",
       text2: "",
       praktisch: "Een rustig tussenstopje, geen aanleiding om lang te blijven staan."
@@ -130,6 +144,8 @@ var SELESTAT_DATA = {
       address: "Place Saint-Georges, 67600 Sélestat",
       lat: 48.2603, lng: 7.4592,
       walkTimeFromPrevious: "3 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Sel%C3%A9stat_2009-014.jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Deze gotische kerk werd gebouwd tussen 1220 en 1490; de bouw duurde zo lang omdat de rijke burgerij van Sélestat er nadrukkelijk haar eigen aanzien mee wilde tonen, tegenover de macht van de geestelijkheid rond de priorijkerk Sainte-Foy.",
       text2: "De kerk was aanvankelijk aan de Heilige Maagd gewijd en draagt pas sinds 1500 de naam Saint-Georges. Tussen 1847-1865 en 1922-1924 werd het gebouw grondig gerestaureerd; sinds 1848 staat het op de monumentenlijst.",
       praktisch: "Ga gratis naar binnen om de glas-in-loodramen te bekijken, reken op 15-20 minuten."
@@ -141,6 +157,8 @@ var SELESTAT_DATA = {
       address: "1 Place du Docteur Maurice Kubler, 67600 Sélestat",
       lat: 48.2606, lng: 7.4556,
       walkTimeFromPrevious: "2 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Biblioth%C3%A8que_Humaniste_de_nuit.jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "De geschiedenis van deze bibliotheek begint in 1452, met een schenking van Jean de Westhuss, een geestelijke van de kerk Saint-Georges naast de deur. Sinds 1889 is de collectie gehuisvest in de voormalige korenhal, gebouwd door architect Gustave Klotz tussen 1843 en 1845.",
       text2: "De collectie combineert de oude parochiebibliotheek met de persoonlijke bibliotheek van humanist Beatus Rhenanus. Sinds 2011 staat de Bibliothèque Humaniste op de UNESCO-lijst Memory of the World.",
       praktisch: "Ga zeker naar binnen als het museum open is, reken op 30-45 minuten voor een bezoek."
@@ -152,6 +170,8 @@ var SELESTAT_DATA = {
       address: "Rue des Serruriers, 67600 Sélestat",
       lat: 48.2600, lng: 7.4550,
       walkTimeFromPrevious: "3 min vanaf vorige stop",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/1%20rue%20des%20Serruriers%20in%20Selestat%20(2).jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Een rustige straat met oude burgerhuizen die de route terugvoert richting het hart van de oude stad, tussen de Bibliothèque Humaniste en de kerk Sainte-Foy.",
       text2: "",
       praktisch: "Gewoon doorlopen, geniet van de vakwerkgevels."
@@ -163,6 +183,8 @@ var SELESTAT_DATA = {
       address: "Place du Général de Gaulle, 67600 Sélestat",
       lat: 48.2594, lng: 7.4561,
       walkTimeFromPrevious: "3 min vanaf vorige stop",
+      image: "https://upload.wikimedia.org/wikipedia/commons/5/50/Eglise_Sainte-Foy_Selestat.jpg",
+      imageCredit: 'Wikimedia Commons',
       text1: "Hildegarde de Buren, overgrootmoeder van keizer Frederik Barbarossa, stichtte hier in 1087 een kleine kapel. Tussen 1152 en 1190 verrees, met financiële steun van Barbarossa zelf, een romaanse priorijkerk in roze zandsteen uit de Vogezen.",
       text2: "De benedictijnen verlieten Sélestat al in 1424; later kwam de kerk in handen van het bisdom Straatsburg. Tussen 1889-1893 restaureerde architect Charles Winkler het gebouw en voegde hij de kenmerkende ruitvormige torenspitsen toe, die doen denken aan de dom van Speyer.",
       praktisch: "Ga naar binnen voor het koele romaanse interieur, reken op 15-20 minuten en bekijk de torenspitsen ook van buiten."
