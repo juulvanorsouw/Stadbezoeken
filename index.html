@@ -19,6 +19,7 @@
       <a href="index.html">Reizen</a>
       <a href="reizen/strasbourg/index.html">Straatsburg</a>
       <a href="reizen/selestat/index.html">Sélestat</a>
+      <a href="reizen/colmar/index.html">Colmar</a>
     </nav>
   </div>
 </header>
@@ -29,8 +30,8 @@
     <h1>Ontdek Europese steden op je eigen tempo, straat voor straat.</h1>
     <p class="lede">Elke route is een rondwandeling met een kaart, uitleg bij elke stop en praktische tips — geen app nodig, geen gids, gewoon aantikken en lopen.</p>
     <div class="hero-stats">
-      <div><strong>2</strong><span>Wandelroutes live</span></div>
-      <div><strong>25+</strong><span>Bezienswaardigheden</span></div>
+      <div><strong>3</strong><span>Wandelroutes live</span></div>
+      <div><strong>35+</strong><span>Bezienswaardigheden</span></div>
       <div><strong>0</strong><span>Euro nodig</span></div>
     </div>
   </div>
@@ -79,6 +80,22 @@
         </div>
       </a>
 
+      <a class="trip-card" href="reizen/colmar/index.html">
+        <div class="cover" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Little_Venice_in_Colmar_01.jpg/960px-Little_Venice_in_Colmar_01.jpg')">
+          <span class="country">Frankrijk · Alsace</span>
+        </div>
+        <div class="body">
+          <h3>Colmar</h3>
+          <p class="sub">Van het Isenheimer altaarstuk in Musée Unterlinden naar de kanalen van La Petite Venise.</p>
+          <div class="trip-meta">
+            <span id="home-colmar-km">— km</span>
+            <span id="home-colmar-min">— min</span>
+            <span id="home-colmar-stops">— stops</span>
+          </div>
+          <div class="cta">Bekijk route <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </div>
+      </a>
+
       <div class="trip-card coming-soon">
         <div class="cover"><span class="country">Binnenkort</span></div>
         <div class="body">
@@ -117,6 +134,7 @@
 
 <script src="assets/data/strasbourg.js"></script>
 <script src="assets/data/selestat.js"></script>
+<script src="assets/data/colmar.js"></script>
 <script>
   function fillMeta(prefix, data) {
     document.getElementById(prefix + "-km").textContent = data.meta.distanceKm + " km";
@@ -125,6 +143,7 @@
   }
   if (window.STRASBOURG_DATA) fillMeta("home-strasbourg", STRASBOURG_DATA);
   if (window.SELESTAT_DATA) fillMeta("home-selestat", SELESTAT_DATA);
+  if (window.COLMAR_DATA) fillMeta("home-colmar", COLMAR_DATA);
 </script>
 </body>
 </html>
