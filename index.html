@@ -20,6 +20,8 @@
       <a href="reizen/strasbourg/index.html">Straatsburg</a>
       <a href="reizen/selestat/index.html">Sélestat</a>
       <a href="reizen/colmar/index.html">Colmar</a>
+      <a href="reizen/chongqing-dag1/index.html">Chongqing dag 1</a>
+      <a href="reizen/chongqing-dag2/index.html">Chongqing dag 2</a>
     </nav>
   </div>
 </header>
@@ -30,8 +32,8 @@
     <h1>Ontdek Europese steden op je eigen tempo, straat voor straat.</h1>
     <p class="lede">Elke route is een rondwandeling met een kaart, uitleg bij elke stop en praktische tips — geen app nodig, geen gids, gewoon aantikken en lopen.</p>
     <div class="hero-stats">
-      <div><strong>3</strong><span>Wandelroutes live</span></div>
-      <div><strong>35+</strong><span>Bezienswaardigheden</span></div>
+      <div><strong>5</strong><span>Routes &amp; dagprogramma's live</span></div>
+      <div><strong>45+</strong><span>Bezienswaardigheden</span></div>
       <div><strong>0</strong><span>Euro nodig</span></div>
     </div>
   </div>
@@ -96,14 +98,37 @@
         </div>
       </a>
 
-      <div class="trip-card coming-soon">
-        <div class="cover"><span class="country">Binnenkort</span></div>
-        <div class="body">
-          <h3>Volgende stad</h3>
-          <p class="sub">Er komen doorlopend nieuwe routes bij. Suggesties voor een stad zijn welkom.</p>
-          <div class="cta">Binnenkort beschikbaar</div>
+      <a class="trip-card" href="reizen/chongqing-dag1/index.html">
+        <div class="cover" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/64/202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg')">
+          <span class="country">China · Chongqing</span>
         </div>
-      </div>
+        <div class="body">
+          <h3>Chongqing — dag 1</h3>
+          <p class="sub">De Volkshal, Kuixinglou, Jiefangbei, de kabelbaan en Hongya Cave: alles op het schiereiland, op volgorde van licht.</p>
+          <div class="trip-meta">
+            <span id="home-chongqing1-km">— km</span>
+            <span id="home-chongqing1-min">— min</span>
+            <span id="home-chongqing1-stops">— stops</span>
+          </div>
+          <div class="cta">Bekijk dagprogramma <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </div>
+      </a>
+
+      <a class="trip-card" href="reizen/chongqing-dag2/index.html">
+        <div class="cover" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/e/e3/%E4%BA%BA%E5%A4%B4%E6%94%92%E5%8A%A8%E7%9A%84%E7%A3%81%E5%99%A8%E5%8F%A3.jpg')">
+          <span class="country">China · Chongqing</span>
+        </div>
+        <div class="body">
+          <h3>Chongqing — dag 2</h3>
+          <p class="sub">Ciqikou vroeg in de ochtend, daarna met de taxi naar het indoor bos van The Ring in Yubei.</p>
+          <div class="trip-meta">
+            <span id="home-chongqing2-km">— km</span>
+            <span id="home-chongqing2-min">— min</span>
+            <span id="home-chongqing2-stops">— stops</span>
+          </div>
+          <div class="cta">Bekijk dagprogramma <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </div>
+      </a>
 
     </div>
   </div>
@@ -135,6 +160,8 @@
 <script src="assets/data/strasbourg.js"></script>
 <script src="assets/data/selestat.js"></script>
 <script src="assets/data/colmar.js"></script>
+<script src="assets/data/chongqing-dag1.js"></script>
+<script src="assets/data/chongqing-dag2.js"></script>
 <script>
   function fillMeta(prefix, data) {
     document.getElementById(prefix + "-km").textContent = data.meta.distanceKm + " km";
@@ -144,6 +171,8 @@
   if (window.STRASBOURG_DATA) fillMeta("home-strasbourg", STRASBOURG_DATA);
   if (window.SELESTAT_DATA) fillMeta("home-selestat", SELESTAT_DATA);
   if (window.COLMAR_DATA) fillMeta("home-colmar", COLMAR_DATA);
+  if (window.CHONGQING_DAG1_DATA) fillMeta("home-chongqing1", CHONGQING_DAG1_DATA);
+  if (window.CHONGQING_DAG2_DATA) fillMeta("home-chongqing2", CHONGQING_DAG2_DATA);
 </script>
 </body>
 </html>

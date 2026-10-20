@@ -78,8 +78,8 @@
   );
 
   var streetLayer = L.tileLayer(
-    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-    { maxZoom: 19, attribution: "© OpenStreetMap-bijdragers" }
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+    { maxZoom: 19, attribution: "Esri, HERE, Garmin, FAO, NOAA, USGS, © OpenStreetMap-bijdragers" }
   ).addTo(map);
 
   var satLayer = L.tileLayer(
@@ -128,8 +128,9 @@
   }
 
   function drawOsrmRoute() {
+    var profile = data.meta.profile || "foot";
     var coordStr = latlngs.map(function (p) { return p[1] + "," + p[0]; }).join(";");
-    var url = "https://router.project-osrm.org/route/v1/foot/" + coordStr + "?overview=full&geometries=geojson";
+    var url = "https://router.project-osrm.org/route/v1/" + profile + "/" + coordStr + "?overview=full&geometries=geojson";
 
     fetch(url)
       .then(function (r) {
@@ -188,18 +189,19 @@
 
   if (btnGmaps) {
     var origin = stops[0].address || stops[0].name;
-    var destination = origin;
+    var destination = stops[stops.length - 1].address || stops[stops.length - 1].name;
     var waypoints = stops
       .slice(1, -1)
       .map(function (s) { return s.address || s.name; })
       .join("|");
+    var travelMode = data.meta.travelMode || "walking";
     var gUrl =
       "https://www.google.com/maps/dir/?api=1&origin=" +
       encodeURIComponent(origin) +
       "&destination=" +
       encodeURIComponent(destination) +
       (waypoints ? "&waypoints=" + encodeURIComponent(waypoints) : "") +
-      "&travelmode=walking";
+      "&travelmode=" + travelMode;
     btnGmaps.href = gUrl;
   }
 

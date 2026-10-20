@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chongqing dag 1 — Volkshal, Kuixinglou, Jiefangbei en Hongya Cave | Stadsreizen</title>
+<meta name="description" content="Dagprogramma voor Chongqing-schiereiland Yuzhong: de Volkshal, het flatgebouw Kuixinglou bij Liziba, Jiefangbei, de kabelbaan over de Yangtze en Hongya Cave bij avond. Met interactieve kaart.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../../index.html" class="brand"><span class="mark">SB</span> Stadsreizen</a>
+    <nav class="site-nav">
+      <a href="../../index.html">Reizen</a>
+      <a href="../strasbourg/index.html">Straatsburg</a>
+      <a href="../selestat/index.html">Sélestat</a>
+      <a href="../colmar/index.html">Colmar</a>
+      <a href="../chongqing-dag1/index.html">Chongqing dag 1</a>
+      <a href="../chongqing-dag2/index.html">Chongqing dag 2</a>
+    </nav>
+  </div>
+</header>
+
+<section class="route-hero" style="--hero-img:url('https://upload.wikimedia.org/wikipedia/commons/6/64/202308_Hongya_Cave_at_night_from_Qiansimen_Bridge.jpg')">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="../../index.html">Reizen</a> <span>/</span> <span>Chongqing</span> <span>/</span> <span>Dag 1</span></div>
+    <span class="eyebrow">Dagprogramma · start bij het hotel, vooral te voet, gepland op het licht</span>
+    <h1>Chongqing dag 1: alles op het schiereiland (Yuzhong)</h1>
+    <p class="lede">Vanaf het hotel in Jiefangbei naar de Volkshal, Kuixinglou bij Liziba, terug via Jiefangbei, de kabelbaan over de Yangtze en Hongya Cave — allemaal binnen een paar kilometer van elkaar. Deze volgorde is gepland op het licht: de kabelbaan rond zonsondergang, Hongya Cave zodra de lampen aangaan. Op zaterdag is Raffles City/Chaotianmen een leuke optionele afsluiter met droneshow.</p>
+    <div class="route-stats">
+      <span class="pill">📍 ± 11 km</span>
+      <span class="pill">⏱ ± 340 min</span>
+      <span class="pill">🏛 6 + 1 optioneel</span>
+      <span class="pill">🚕 2 taxiritten</span>
+    </div>
+  </div>
+</section>
+
+<section class="route-body">
+  <div class="wrap">
+    <div class="route-layout">
+
+      <div class="map-col">
+        <div id="map"></div>
+        <div class="map-toolbar">
+          <button id="btn-street" type="button" class="active">Straatkaart</button>
+          <button id="btn-sat" type="button">Satelliet</button>
+          <button id="btn-fit" type="button">Hele dag in beeld</button>
+          <a id="btn-gmaps" class="chip" href="#" target="_blank" rel="noopener">Route in Google Maps</a>
+        </div>
+        <div class="geo-status" id="geo-status">
+          <span>Locatie staat uit</span>
+          <button id="btn-geo" type="button">Zet aan</button>
+        </div>
+      </div>
+
+      <div class="list-col">
+        <h2>Dagprogramma in volgorde</h2>
+        <p class="list-sub">Chongqing, schiereiland Yuzhong. Start bij het hotel in Jiefangbei; hotel → Volkshal en Volkshal → Kuixinglou zijn taxiritten, de rest is te lopen of met de metro. Tik op "Toon op kaart" om een stop te lokaliseren.</p>
+        <ul class="stop-list" id="stop-list"></ul>
+
+        <div class="route-footnote">
+          <p><strong>Praktisch voor heel Chongqing:</strong> installeer Didi (taxi-app, werkt met een buitenlandse betaalkaart) en Amap — Google Maps is in Chongqing onbetrouwbaar voor navigatie en adressen. Koop de tickets voor de kabelbaan vooraf online: rond zonsondergang loopt de rij op tot wel een uur.</p>
+          <p>Looptijden en reistijden zijn schattingen zonder pauzes of verkeersdrukte. Openingstijden en prijzen staan er bewust niet bij — check die vooraf bij de betreffende locatie.</p>
+          <p>Kaart: OpenStreetMap-bijdragers en Esri. De routelijn komt van de open routeplanner van OpenStreetMap; lukt dat niet, dan trekt de pagina rechte lijnen tussen de punten.</p>
+          <p>Foto's komen van Wikimedia Commons, credits en licentie staan onder elke foto.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="../../index.html">← Terug naar alle reizen</a>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../../assets/data/chongqing-dag1.js"></script>
+<script>var ROUTE_DATA = CHONGQING_DAG1_DATA;</script>
+<script src="../../assets/js/route.js"></script>
+</body>
+</html>

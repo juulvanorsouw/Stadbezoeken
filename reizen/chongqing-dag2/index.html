@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chongqing dag 2 — Ciqikou en The Ring (Guanghuan) | Stadsreizen</title>
+<meta name="description" content="Dagprogramma voor Chongqing met taxi: de oude handelsstad Ciqikou, het indoor-regenwoud winkelcentrum The Ring (Guanghuan) in Yubei en een gratis bonusstop bij Liziba. Met interactieve kaart.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../../index.html" class="brand"><span class="mark">SB</span> Stadsreizen</a>
+    <nav class="site-nav">
+      <a href="../../index.html">Reizen</a>
+      <a href="../strasbourg/index.html">Straatsburg</a>
+      <a href="../selestat/index.html">Sélestat</a>
+      <a href="../colmar/index.html">Colmar</a>
+      <a href="../chongqing-dag1/index.html">Chongqing dag 1</a>
+      <a href="../chongqing-dag2/index.html">Chongqing dag 2</a>
+    </nav>
+  </div>
+</header>
+
+<section class="route-hero" style="--hero-img:url('https://upload.wikimedia.org/wikipedia/commons/e/e3/%E4%BA%BA%E5%A4%B4%E6%94%92%E5%8A%A8%E7%9A%84%E7%A3%81%E5%99%A8%E5%8F%A3.jpg')">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="../../index.html">Reizen</a> <span>/</span> <span>Chongqing</span> <span>/</span> <span>Dag 2</span></div>
+    <span class="eyebrow">Dagprogramma · start bij het hotel, buitenwijken, met taxi</span>
+    <h1>Chongqing dag 2: de buitenwijken, met taxi</h1>
+    <p class="lede">Vanaf het hotel in Jiefangbei naar Ciqikou, zo'n 30 minuten ten westen, en daarna naar The Ring (光环购物公园 Guanghuan — het "O-park" met het indoor bos) in Yubei, zo'n 35-40 minuten verderop. Op de terugweg naar het hotel is Liziba/Kuixinglou een gratis bonusstop van een kwartier.</p>
+    <div class="route-stats">
+      <span class="pill">📍 ± 47 km</span>
+      <span class="pill">⏱ ± 335 min</span>
+      <span class="pill">🏛 4 stops</span>
+      <span class="pill">🚕 3 taxiritten</span>
+    </div>
+  </div>
+</section>
+
+<section class="route-body">
+  <div class="wrap">
+    <div class="route-layout">
+
+      <div class="map-col">
+        <div id="map"></div>
+        <div class="map-toolbar">
+          <button id="btn-street" type="button" class="active">Straatkaart</button>
+          <button id="btn-sat" type="button">Satelliet</button>
+          <button id="btn-fit" type="button">Hele dag in beeld</button>
+          <a id="btn-gmaps" class="chip" href="#" target="_blank" rel="noopener">Route in Google Maps</a>
+        </div>
+        <div class="geo-status" id="geo-status">
+          <span>Locatie staat uit</span>
+          <button id="btn-geo" type="button">Zet aan</button>
+        </div>
+      </div>
+
+      <div class="list-col">
+        <h2>Dagprogramma in volgorde</h2>
+        <p class="list-sub">Chongqing, buitenwijken. Start bij het hotel in Jiefangbei; deze dag doe je volledig met de taxi. Tik op "Toon op kaart" om een stop te lokaliseren.</p>
+        <ul class="stop-list" id="stop-list"></ul>
+
+        <div class="route-footnote">
+          <p><strong>Praktisch:</strong> installeer Didi (taxi-app, werkt met een buitenlandse betaalkaart) en Amap voordat je gaat — Google Maps staat voor een adres als Guanghuan verkeerd en is in Chongqing in het algemeen onbetrouwbaar. Zoek daar in Didi of Amap zelf op 光环购物公园.</p>
+          <p>Reistijden zijn schattingen voor een taxirit zonder verkeersdrukte — in de spits kan het flink langer duren. Openingstijden en prijzen staan er bewust niet bij — check die vooraf bij de betreffende locatie.</p>
+          <p>Kaart: OpenStreetMap-bijdragers en Esri. De routelijn komt van de open routeplanner van OpenStreetMap (auto-profiel); lukt dat niet, dan trekt de pagina rechte lijnen tussen de punten. De marker bij The Ring/Guanghuan staat bij benadering.</p>
+          <p>Foto's komen van Wikimedia Commons, credits en licentie staan onder elke foto.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="../../index.html">← Terug naar alle reizen</a>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../../assets/data/chongqing-dag2.js"></script>
+<script>var ROUTE_DATA = CHONGQING_DAG2_DATA;</script>
+<script src="../../assets/js/route.js"></script>
+</body>
+</html>
